@@ -1,3 +1,9 @@
-This script includes a series of executions, that would collect most important key details necessary for the JFrog Engineers to better understand the on-premise platform, to evaluate the challenges that may arise during the course of migration and also to decide on the steps to achieve the migration task.
+This script includes a series of executions that would collect the most important key details necessary for the JFrog Engineers to understand the on-premise platform better, evaluate the challenges that may arise during migration, and decide on the steps to achieve the migration task.
 
-NOTE: This script has been designed to run in the Linux systems only.
+NOTE: This script has been designed to run on Linux systems only.
+
+Script execution steps:
+1. Download the script
+2. Execute the script using the following command: $ ./collect-onpremise-details.sh
+3. The script is interactive and it is required to supply the Artifactory URL as input in the following format: HTTP://<ARTIFACTORY-HOSTNAME>:<PORT>/artifactory
+4. Collect the details in a text file and share it with the JFrog engineers.
